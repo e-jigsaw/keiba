@@ -1,12 +1,15 @@
 {
-  "name": "keiba-inv",
-  "version": "1.0.0",
-  "description": "",
+  "private": true,
+  "name": "keiba",
+  "description": "keiba",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Takaya Kobayashi (https://kbys.tk/y)",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "isomorphic-unfetch": "^2.0.0"
+  }
 }
